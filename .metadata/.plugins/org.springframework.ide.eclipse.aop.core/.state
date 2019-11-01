@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="crm-service">
+<aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="65" aspect-name="txAdvice" aspect-start-line-number="65" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/crm-service/src/main/resources/applicationContext.xml" pointcut-expression="execution(* com.yusys.yusp.service..*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:crm-service|3:src/main/resources/applicationContext.xml|7:beans:10|8:employeeService:10" bean-file="/crm-service/src/main/resources/applicationContext.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/crm-service/src/main/resources/applicationContext.xml" source="=crm-service/D:\/eclipse\/apache-maven-3.3.9\/repository\/org\/springframework\/spring-tx\/4.3.7.RELEASE\/spring-tx-4.3.7.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=crm-service/src\/main\/java&lt;com.yusys.yusp.service{EmployeeService.java[EmployeeService~getAll" target-start-line="19"/>
+</aspect-definition>
+</aop-project>
+</aop-reference-model>
